@@ -7,6 +7,7 @@ import re
 from pathlib import Path
 import threading
 import uuid
+from datetime import datetime, timezone
 
 import streamlit as st
 
@@ -39,7 +40,8 @@ with st.sidebar:
         runtime.stop("generation")
         runtime.stop("embedding")
         st.success("モデルを停止しました。")
-    save_history = st.toggle("回答履歴をこのMacに保存", value=False)
+    save_history = st.toggle("回答履歴をこのMacに保存", value=True)
+    st.caption("履歴は自動学習には使いません。内容を確認して、改善に反映したものだけ手動で記録します。")
     if not cfg["retrieval"]["calibrated"]:
         st.warning("試験運用：回答を控える閾値は未校正です。原文も確認してください。")
 
@@ -81,7 +83,11 @@ with chat_tab:
                     st.session_state["result"] = result
                     st.session_state["result_context"] = (question, version, edition, search_only)
                     if save_history:
-                        write_json(data_root() / "history" / (uuid.uuid4().hex + ".json"), {"question": question, "version": version, "result": result})
+                        history_path = data_root() / "history" / (uuid.uuid4().hex + ".json")
+                        write_json(history_path, {"question": question, "version": version, "result": result,
+                                                  "improvement_status": "未確認", "improvement_used_at": None,
+                                                  "improvement_note": ""})
+                        st.session_state["history_path"] = str(history_path)
             except Exception as exc:
                 st.session_state.pop("result", None)
                 st.error(str(exc))
@@ -97,6 +103,16 @@ with chat_tab:
             st.text(claim["quote"])
         if result["reason"]:
             st.text(result["reason"])
+        history_path = st.session_state.get("history_path")
+        if history_path and Path(history_path).is_file():
+            history_record = json.loads(Path(history_path).read_text(encoding="utf-8"))
+            status = history_record.get("improvement_status", "未確認")
+            st.caption(f"改善利用状況: {status}")
+            if status != "改善に反映済み" and st.button("この回答を改善に反映済みとして記録", key="mark-improvement"):
+                history_record["improvement_status"] = "改善に反映済み"
+                history_record["improvement_used_at"] = datetime.now(timezone.utc).isoformat()
+                write_json(history_path, history_record)
+                st.success("改善への反映済みとして記録しました。")
         if result.get("seconds"):
             st.caption(f"処理時間 {result['seconds']:.1f}秒 / snapshot {result['snapshot']}")
         render_sources(result["sources"], result["snapshot"])

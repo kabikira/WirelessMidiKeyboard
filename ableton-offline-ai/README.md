@@ -126,7 +126,10 @@ models / runtime / knowledge / data / offline_bundle を含めてください。
 
 実装・検証の要約は [実装状況](docs/implementation-status.md)、試験結果は `evaluations/`、
 残る受け入れ試験は [受け入れ試験](docs/acceptance.md) を参照してください。
-LLMのログは `logs/` に保存します。質問履歴は既定では保存しません。
+LLMのログは `logs/` に保存します。回答履歴はUIで既定ONです。履歴は `data/history/*.json` に保存され、
+質問・回答・引用・検索資料・snapshotに加えて、`improvement_status`（未確認 / 改善に反映済み）、
+`improvement_used_at`、`improvement_note`を持ちます。保存しただけでは自動学習に使いません。
+内容を確認して「この回答を改善に反映済みとして記録」を押したものだけ、改善済みとして追跡できます。
 録音中に索引作成をしないでください。音声に影響が出る場合はモデルを解放して検索のみ使えます。
 
 ## ライセンス・適用範囲
