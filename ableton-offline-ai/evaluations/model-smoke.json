@@ -1,0 +1,31 @@
+{
+  "embedding": {
+    "dimensions": 1024,
+    "norm": 1.0000001192092896,
+    "seconds": 25.06109895899135
+  },
+  "generation": {
+    "seconds": 34.48865400000068,
+    "usage": {
+      "completion_tokens": 94,
+      "prompt_tokens": 93,
+      "total_tokens": 187,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "answer": {
+      "status": "supported",
+      "claims": [
+        {
+          "text": "MIDI の Track スイッチは、Live に MIDI ノートと MIDI CC メッセージを受け付ける機能を備えています。",
+          "source": 1,
+          "quote": "The Track switch enables Live to receive MIDI notes and MIDI CC messages."
+        }
+      ],
+      "missing": ""
+    }
+  },
+  "python_external_network_guard": true,
+  "max_child_rss_bytes": 3237691392
+}

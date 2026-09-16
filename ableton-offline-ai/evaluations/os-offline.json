@@ -1,0 +1,7 @@
+{
+  "blocked_1.1.1.1": true,
+  "blocked_8.8.8.8": true,
+  "loopback_allowed": true,
+  "native_child_blocked": true,
+  "native_child_message": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to 1.1.1.1 port 443 after 1 ms: Couldn't connect to server\n"
+}

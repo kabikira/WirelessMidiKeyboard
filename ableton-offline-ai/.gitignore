@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+models/**/*.gguf*
+runtime/
+data/
+logs/
+offline_bundle/wheels/
+offline_bundle/*.tar.gz
+knowledge/**/*.html
+knowledge/**/*.pdf
+knowledge/personal_notes/*
+!knowledge/personal_notes/.gitkeep
+knowledge/hardware/*
+!knowledge/hardware/.gitkeep
+updates/

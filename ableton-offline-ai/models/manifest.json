@@ -1,0 +1,23 @@
+{
+  "generation": {
+    "repo": "unsloth/Qwen3.5-4B-GGUF",
+    "revision": "e87f176479d0855a907a41277aca2f8ee7a09523",
+    "file": "models/generation/Qwen3.5-4B-Q4_K_M.gguf",
+    "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+    "bytes": 2740937888,
+    "license": "Apache-2.0"
+  },
+  "embedding": {
+    "repo": "Qwen/Qwen3-Embedding-0.6B-GGUF",
+    "revision": "370f27d7550e0def9b39c1f16d3fbaa13aa67728",
+    "file": "models/embedding/Qwen3-Embedding-0.6B-Q8_0.gguf",
+    "sha256": "06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439",
+    "bytes": 639150592,
+    "license": "Apache-2.0"
+  },
+  "runtime": {
+    "release": "b10964",
+    "commit": "b29c606e2",
+    "archive_sha256": "033c845c1df9bf945ff37bb193238b40910b2244be3e1e637b2ceb5878f1a6f5"
+  }
+}

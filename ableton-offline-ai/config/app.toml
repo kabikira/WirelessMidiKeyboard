@@ -1,0 +1,20 @@
+[profile]
+live_version = "12.3.5"
+edition = "Suite"
+
+[runtime]
+generation_model = "models/generation/Qwen3.5-4B-Q4_K_M.gguf"
+embedding_model = "models/embedding/Qwen3-Embedding-0.6B-Q8_0.gguf"
+generation_port = 18781
+embedding_port = 18782
+context = 4096
+threads = 2
+idle_seconds = 300
+max_output_tokens = 768
+
+[retrieval]
+top_k = 5
+min_similarity = 0.55
+calibrated = false
+chunk_chars = 1100
+overlap_chars = 120

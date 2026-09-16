@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ableton-offline-ai"
+version = "0.1.0"
+description = "完全ローカルのAbleton Live資料検索・根拠付き質問応答"
+requires-python = ">=3.12"
+dependencies = ["streamlit", "numpy", "beautifulsoup4", "pypdf", "pdfplumber", "markdown-it-py"]
+
+[project.scripts]
+ableton-ai = "app.cli:main"
+
+[tool.setuptools]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

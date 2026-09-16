@@ -1,0 +1,1100 @@
+{
+  "snapshot": "20260916T134959Z-d2dab264",
+  "scope": "smoke-only; heading relevance, not factual accuracy",
+  "retrieval": [
+    {
+      "question": "SimplerのClassicモードとは？",
+      "expected_heading": "Simpler",
+      "found": true,
+      "headings": [
+        "30. Live Instrument Reference > 30.11 Simpler > 30.11.1 Playback Modes > 30.11.1.1 Classic Playback Mode",
+        "30. Live Instrument Reference > 30.11 Simpler > 30.11.1 Playback Modes",
+        "30. Live Instrument Reference > 30.11 Simpler",
+        "30. Live Instrument Reference > 30.11 Simpler > 30.11.3 Filter",
+        "30. Live Instrument Reference > 30.11 Simpler > 30.11.7 Context Menu Options for Simpler"
+      ],
+      "similarities": [
+        0.6677737832069397,
+        0.7053138017654419,
+        0.6413308382034302,
+        0.5589182376861572,
+        0.5873627066612244
+      ],
+      "seconds": 1.3208250000025146
+    },
+    {
+      "question": "Samplerで複数のサンプルをキーに割り当てるには？",
+      "expected_heading": "Sampler",
+      "found": true,
+      "headings": [
+        "30. Live Instrument Reference > 30.10 Sampler > 30.10.4 Sampler’s Tabs",
+        "30. Live Instrument Reference > 30.10 Sampler > 30.10.1 Getting Started with Sampler",
+        "30. Live Instrument Reference > 30.10 Sampler > 30.10.3 Title Bar Options",
+        "30. Live Instrument Reference > 30.10 Sampler",
+        "30. Live Instrument Reference > 30.10 Sampler > 30.10.2 Multisampling"
+      ],
+      "similarities": [
+        0.6439501047134399,
+        0.641628623008728,
+        0.6806911826133728,
+        0.6896128058433533,
+        0.6911923885345459
+      ],
+      "seconds": 0.13056062499526888
+    },
+    {
+      "question": "Operatorのアルゴリズムについて教えて",
+      "expected_heading": "Operator",
+      "found": true,
+      "headings": [
+        "30. Live Instrument Reference > 30.9 Operator",
+        "30. Live Instrument Reference > 30.9 Operator > 30.9.1 General Overview",
+        "30. Live Instrument Reference > 30.9 Operator > 30.9.2 Oscillator Section",
+        "30. Live Instrument Reference > 30.9 Operator > 30.9.10 The Complete Parameter List",
+        "30. Live Instrument Reference > 30.9 Operator > 30.9.10 The Complete Parameter List > 30.9.10.8 Context Menu Options for Operator"
+      ],
+      "similarities": [
+        0.7112561464309692,
+        0.7502273917198181,
+        0.506293773651123,
+        0.5428028702735901,
+        0.49197885394096375
+      ],
+      "seconds": 0.11577366600977257
+    },
+    {
+      "question": "Wavetableのオシレーターについて教えて",
+      "expected_heading": "Wavetable",
+      "found": true,
+      "headings": [
+        "30. Live Instrument Reference > 30.13 Wavetable > 30.13.1 Wavetable Synthesis",
+        "30. Live Instrument Reference > 30.13 Wavetable > 30.13.2 Oscillators",
+        "30. Live Instrument Reference > 30.13 Wavetable",
+        "30. Live Instrument Reference > 30.13 Wavetable > 30.13.3 Sub Oscillator",
+        "30. Live Instrument Reference > 30.13 Wavetable > 30.13.9 Hi-Quality Mode"
+      ],
+      "similarities": [
+        0.7543728351593018,
+        0.6840649843215942,
+        0.7348624467849731,
+        0.6990531086921692,
+        0.5483822822570801
+      ],
+      "seconds": 0.12047070899279788
+    },
+    {
+      "question": "EchoのDry/Wetとは何ですか？",
+      "expected_heading": "Echo",
+      "found": true,
+      "headings": [
+        "28. Live Audio Effect Reference > 28.14 Echo > 28.14.4 Global Controls",
+        "28. Live Audio Effect Reference > 28.14 Echo > 28.14.3 Character Tab",
+        "28. Live Audio Effect Reference > 28.14 Echo",
+        "28. Live Audio Effect Reference > 28.14 Echo > 28.14.1 Echo Tab",
+        "28. Live Audio Effect Reference > 28.14 Echo > 28.14.2 Modulation Tab"
+      ],
+      "similarities": [
+        0.5914140343666077,
+        0.5894168615341187,
+        0.5599567890167236,
+        0.546688973903656,
+        0.5323027968406677
+      ],
+      "seconds": 0.11647554198862053
+    },
+    {
+      "question": "Compressorのサイドチェインについて",
+      "expected_heading": "Compressor",
+      "found": true,
+      "headings": [
+        "28. Live Audio Effect Reference > 28.9 Compressor > 28.9.1 Sidechain Parameters",
+        "28. Live Audio Effect Reference > 28.9 Compressor > 28.9.2 Compressor Tips > 28.9.2.2 Sidechaining in Dance Music",
+        "28. Live Audio Effect Reference > 28.9 Compressor > 28.9.2 Compressor Tips",
+        "28. Live Audio Effect Reference > 28.9 Compressor > 28.9.2 Compressor Tips > 28.9.2.1 Mixing a Voiceover",
+        "28. Live Audio Effect Reference > 28.9 Compressor"
+      ],
+      "similarities": [
+        0.7820942401885986,
+        0.7361685037612915,
+        0.7739882469177246,
+        0.70737624168396,
+        0.5854684114456177
+      ],
+      "seconds": 0.12131337501341477
+    },
+    {
+      "question": "MIDIエフェクトArpeggiatorの使い方",
+      "expected_heading": "Arpeggiator",
+      "found": true,
+      "headings": [
+        "29. Live MIDI Effect Reference > 29.1 Arpeggiator",
+        "29. Live MIDI Effect Reference > 29.1 Arpeggiator",
+        "29. Live MIDI Effect Reference > 29.1 Arpeggiator",
+        "29. Live MIDI Effect Reference > 29.1 Arpeggiator",
+        "29. Live MIDI Effect Reference > 29.1 Arpeggiator"
+      ],
+      "similarities": [
+        0.778900682926178,
+        0.7084452509880066,
+        0.6045887470245361,
+        0.7056856751441956,
+        0.6599961519241333
+      ],
+      "seconds": 0.12567145898356102
+    },
+    {
+      "question": "MIDIのTrackスイッチとRemoteスイッチの違いは？",
+      "expected_heading": "MIDI",
+      "found": true,
+      "headings": [
+        "17. Routing and I/O > 17.3 External MIDI In/Out > 17.3.1 MIDI Port Inputs and Outputs > 17.3.1.3 Remote",
+        "17. Routing and I/O > 17.3 External MIDI In/Out > 17.3.1 MIDI Port Inputs and Outputs > 17.3.1.1 Track",
+        "33. MIDI and Key Remote Control > 33.1 MIDI Remote Control",
+        "33. MIDI and Key Remote Control",
+        "33. MIDI and Key Remote Control > 33.1 MIDI Remote Control > 33.1.3 Takeover Mode"
+      ],
+      "similarities": [
+        0.7309728860855103,
+        0.6360408067703247,
+        0.6941732168197632,
+        0.6595757007598877,
+        0.632676362991333
+      ],
+      "seconds": 0.14210837500286289
+    },
+    {
+      "question": "Audio Fromで外部入力を選ぶには？",
+      "expected_heading": "Routing",
+      "found": true,
+      "headings": [
+        "17. Routing and I/O > 17.2 External Audio In/Out",
+        "17. Routing and I/O > 17.3 External MIDI In/Out",
+        "Using hardware synthesizers with Live > Step 5 - Use External Instrument (recommended)",
+        "3. Live Concepts > 3.16 Routing",
+        "28. Live Audio Effect Reference > 28.18 External Audio Effect"
+      ],
+      "similarities": [
+        0.6064350008964539,
+        0.5801711678504944,
+        0.6208407878875732,
+        0.5793972015380859,
+        0.6962407827377319
+      ],
+      "seconds": 0.13979283400112763
+    },
+    {
+      "question": "MonitorのInとAutoとOffの違いは？",
+      "expected_heading": "Monitoring",
+      "found": true,
+      "headings": [
+        "17. Routing and I/O > 17.1 Monitoring",
+        "Monitoring in Ableton Live FAQ > When should the monitor be set to \"In\" or \"Auto\"?",
+        "18. Mixing > 18.8 Keep Monitoring Latency in Recording Track Toggles",
+        "Monitoring in Ableton Live FAQ > Why are my recordings out of sync?",
+        "Monitoring in Ableton Live FAQ > How do I monitor in Live?"
+      ],
+      "similarities": [
+        0.6737431287765503,
+        0.7688277959823608,
+        0.6103087663650513,
+        0.5878973007202148,
+        0.6682175397872925
+      ],
+      "seconds": 0.13614533399231732
+    },
+    {
+      "question": "ギターを録音するときの入力とモニタリング",
+      "expected_heading": "Routing",
+      "found": true,
+      "headings": [
+        "19. Recording New Clips > 19.3 Recording",
+        "17. Routing and I/O > 17.5 Internal Routings > 17.5.2 Making Use of Internal Routing > 17.5.2.1 Post-Effects Recording",
+        "17. Routing and I/O > 17.1 Monitoring",
+        "Monitoring in Ableton Live FAQ > When should the monitor be set to \"Off\"?",
+        "19. Recording New Clips > 19.1 Choosing an Input"
+      ],
+      "similarities": [
+        0.48703283071517944,
+        0.6711023449897766,
+        0.6591446399688721,
+        0.5633582472801208,
+        0.5459247827529907
+      ],
+      "seconds": 0.13488595897797495
+    },
+    {
+      "question": "External Instrumentで外部シンセを使うには？",
+      "expected_heading": "External Instrument",
+      "found": true,
+      "headings": [
+        "30. Live Instrument Reference > 30.6 External Instrument",
+        "30. Live Instrument Reference > 30.6 External Instrument",
+        "30. Live Instrument Reference > 30.6 External Instrument",
+        "30. Live Instrument Reference > 30.6 External Instrument"
+      ],
+      "similarities": [
+        0.7841628789901733,
+        0.6665974855422974,
+        0.5824779272079468,
+        0.6364372372627258
+      ],
+      "seconds": 0.11917866699513979
+    },
+    {
+      "question": "Max for Liveとは何ですか？",
+      "expected_heading": "Max",
+      "found": true,
+      "headings": [
+        "31. Max for Live > 31.4 Building Max for Live MIDI Tools",
+        "31. Max for Live > 31.1 Setting Up Max for Live",
+        "31. Max for Live > 31.5 Max Dependencies",
+        "31. Max for Live > 31.2 Using Max for Live Devices",
+        "31. Max for Live > 31.6 Learning Max Programming"
+      ],
+      "similarities": [
+        0.6943856477737427,
+        0.6775647401809692,
+        0.6197874546051025,
+        0.6864795684814453,
+        0.6052520275115967
+      ],
+      "seconds": 0.13369270801194943
+    },
+    {
+      "question": "WarpモードのBeatsとは？",
+      "expected_heading": "Beats",
+      "found": true,
+      "headings": [
+        "9. Audio Clips, Tempo, and Warping > 9.3 Warp Modes > 9.3.1 Beats Mode",
+        "38. Audio Fact Sheet > 38.2 Neutral Operations > 38.2.3 Unstretched Beats/Tones/Texture/Re-Pitch Warping",
+        "9. Audio Clips, Tempo, and Warping > 9.2 Warping > 9.2.1 Warping Options in Settings",
+        "30. Live Instrument Reference > 30.11 Simpler > 30.11.2 Warp Controls",
+        "38. Audio Fact Sheet > 38.3 Non-Neutral Operations > 38.3.1 Playback in Complex and Complex Pro Mode"
+      ],
+      "similarities": [
+        0.6554898619651794,
+        0.5942645072937012,
+        0.6467421054840088,
+        0.6419202089309692,
+        0.5872588753700256
+      ],
+      "seconds": 0.13730933400802314
+    },
+    {
+      "question": "ReturnトラックとSendについて",
+      "expected_heading": "Mixing",
+      "found": true,
+      "headings": [
+        "18. Mixing > 18.4 Return Tracks and the Main track",
+        "24. Instrument, Drum and Effect Racks > 24.6 Drum Racks",
+        "17. Routing and I/O > 17.5 Internal Routings > 17.5.2 Making Use of Internal Routing > 17.5.2.3 Creating Submixes",
+        "3. Live Concepts > 3.14 The Mixer",
+        "28. Live Audio Effect Reference > 28.37 Spectral Time > 28.37.4 Global Controls"
+      ],
+      "similarities": [
+        0.6787446141242981,
+        0.5493613481521606,
+        0.503877580165863,
+        0.60873943567276,
+        0.4338943362236023
+      ],
+      "seconds": 0.1218292499834206
+    }
+  ],
+  "answers": [
+    {
+      "question": "MIDIのTrackスイッチとRemoteスイッチの違いは？",
+      "result": {
+        "status": "partial",
+        "reason": " 対象はLive 12.3.5です。資料の一部はメジャー版のみの指定で、個別のマイナー版への適用は未確認です。",
+        "claims": [
+          {
+            "text": "リモートスイッチは、MIDI コントローラーから Live のパラメータへのマッピングを作成したり、MIDI コントローラーへのフィードバックを送信したりすることを可能にします。",
+            "source": 1,
+            "quote": "The Remote switch allows you to create mappings from a MIDI controller to parameters in Live or to send feedback to a MIDI controller."
+          },
+          {
+            "text": "トラックを有効にすると、Live は MIDI キーボードを使用して音符や CC（コントロールチェンジ）メッセージを送信したり受信したりできます。",
+            "source": 2,
+            "quote": "Enabling Track allows Live to send or receive note and CC (Control Change) messages, for example, when using a MIDI keyboard to play or enter pitches."
+          },
+          {
+            "text": "リモート制御割り当ての一部となる MIDI キーは、MIDI トラックの入力として使用できなくなります。",
+            "source": 3,
+            "quote": "MIDI keys that become part of remote control assignments can no longer be used as input for MIDI tracks ."
+          }
+        ],
+        "sources": [
+          {
+            "id": "f50857a436027f4021d8037a",
+            "text": "The Remote switch allows you to create mappings from a MIDI controller to parameters in Live or to send feedback to a MIDI controller.\n\nActivate Remote for a MIDI port’s input when: - Creating custom MIDI mappings to be able to control parameters in Live. - Using a MIDI keyboard to trigger MIDI Clips.\n\nActivate Remote for a MIDI port’s output when: - Using MIDI controllers with LEDs that reflect the status of mapped Live parameters. - Using MIDI controllers with motorized faders that reflect the status of mapped Live parameters.",
+            "metadata": {
+              "document_id": "ableton-live-12-routing-and-i-o",
+              "canonical_id": "live-12-routing-and-i-o",
+              "title": "Ableton Live 12 Manual — 17. Routing and I/O",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/routing-and-i-o/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "6e5582e7d173ba2d0f632d168b705d4e012bad3c721b9a7c8acb0019628cc694",
+              "verified": false,
+              "revision_id": "6e5582e7d173ba2d0f632d168b705d4e012bad3c721b9a7c8acb0019628cc694",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/routing-and-i-o.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "17. Routing and I/O",
+                "17.3 External MIDI In/Out",
+                "17.3.1 MIDI Port Inputs and Outputs",
+                "17.3.1.3 Remote"
+              ],
+              "anchor": "remote",
+              "block_type": "p",
+              "chunk_index": 15,
+              "previous_id": "8ce365ffdc7a64a4378c699c",
+              "next_id": "77ba3571c4de578e07996cbe",
+              "snapshot_source": "originals/6e5582e7d173ba2d0f632d168b705d4e012bad3c721b9a7c8acb0019628cc694.html"
+            },
+            "similarity": 0.7309728860855103,
+            "rank_score": 0.09288467069312625
+          },
+          {
+            "id": "d653e8e899817360b2525527",
+            "text": "Enabling Track allows Live to send or receive note and CC (Control Change) messages, for example, when using a MIDI keyboard to play or enter pitches.\n\nActivate Track for a MIDI port’s input when: - Playing instruments in Live with a MIDI keyboard. - Recording notes into MIDI clips. - Recording MIDI CC messages into MIDI clips, for example to capture parameter changes from an external hardware synthesizer.\n\nActivate Track for a MIDI port’s output when: - Triggering an external hardware device (like a synthesizer, drum machine, etc). - Sending MIDI notes to another application (using a virtual MIDI bus). - Sending MIDI CC automation to an external device or application.\n\nNote: You only need to activate Track on the output port for a MIDI controller if it has a built-in sound generator.",
+            "metadata": {
+              "document_id": "ableton-live-12-routing-and-i-o",
+              "canonical_id": "live-12-routing-and-i-o",
+              "title": "Ableton Live 12 Manual — 17. Routing and I/O",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/routing-and-i-o/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "6e5582e7d173ba2d0f632d168b705d4e012bad3c721b9a7c8acb0019628cc694",
+              "verified": false,
+              "revision_id": "6e5582e7d173ba2d0f632d168b705d4e012bad3c721b9a7c8acb0019628cc694",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/routing-and-i-o.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "17. Routing and I/O",
+                "17.3 External MIDI In/Out",
+                "17.3.1 MIDI Port Inputs and Outputs",
+                "17.3.1.1 Track"
+              ],
+              "anchor": "track",
+              "block_type": "p",
+              "chunk_index": 11,
+              "previous_id": "f8617599b96b7958d57bcf21",
+              "next_id": "464811ee3800517681a20d53",
+              "snapshot_source": "originals/6e5582e7d173ba2d0f632d168b705d4e012bad3c721b9a7c8acb0019628cc694.html"
+            },
+            "similarity": 0.6360408067703247,
+            "rank_score": 0.065625
+          },
+          {
+            "id": "6d4b46389594ac9820c744dd",
+            "text": "Live can be controlled remotely by external MIDI control surfaces, such as MIDI keyboards or controller boxes. Live also offers dedicated control via Ableton Push 1 , Push 2 , and Push 3 .\n\nBefore we explain how remote control assignments are made and implemented, let’s first make the distinction between MIDI remote control and a separate use of MIDI in Live: as the input for our MIDI tracks. Let’s suppose that you are using a MIDI keyboard to play an instrument in one of Live’s MIDI tracks. If you assign C-1 on your MIDI keyboard to a Session View Clip Launch button, that key will cease playing C-1 of your MIDI track’s instrument, as it now ”belongs” solely to the Clip Launch button.\n\nMIDI keys that become part of remote control assignments can no longer be used as input for MIDI tracks . This is a common cause of confusion that can be easily resolved by observing the Control Bar’s MIDI indicators .",
+            "metadata": {
+              "document_id": "ableton-live-12-midi-and-key-remote-control",
+              "canonical_id": "live-12-midi-and-key-remote-control",
+              "title": "Ableton Live 12 Manual — 33. MIDI and Key Remote Control",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/midi-and-key-remote-control/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60",
+              "verified": false,
+              "revision_id": "dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/midi-and-key-remote-control.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "33. MIDI and Key Remote Control",
+                "33.1 MIDI Remote Control"
+              ],
+              "anchor": "midi-remote-control",
+              "block_type": "p",
+              "chunk_index": 1,
+              "previous_id": "ea094d72dcbb4785148bb900",
+              "next_id": "3a3dde1788bde1fe6632b6cc",
+              "snapshot_source": "originals/dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60.html"
+            },
+            "similarity": 0.6941732168197632,
+            "rank_score": 0.04839549075403121
+          },
+          {
+            "id": "ea094d72dcbb4785148bb900",
+            "text": "To liberate the musician from the mouse, most of Live’s controls can be remote-controlled with an external MIDI controller and the computer keyboard. This chapter describes the details of mapping to the following specific types of controls in Live’s user interface:\n\n1. Session View slots — Note that MIDI and computer key assignments are bound to the slots, not to the clips they contain.\n2. Switches and buttons — Among them the Track and Device Activator switches, the Control Bar’s tap tempo, metronome and transport controls.\n3. Radio buttons — A radio button selects from among a number of options. One instance of a radio button is the crossfader assignment section in each track, which offers three options: The track is assigned to the crossfader’s A position, the track is unaffected by the crossfader, or the track is affected by the crossfader’s B position.\n4. Continuous controls — Like the mixer’s volume, pan and sends.\n5. The crossfader — The behavior of which is described in detail in the respective section of the Mixing chapter.",
+            "metadata": {
+              "document_id": "ableton-live-12-midi-and-key-remote-control",
+              "canonical_id": "live-12-midi-and-key-remote-control",
+              "title": "Ableton Live 12 Manual — 33. MIDI and Key Remote Control",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/midi-and-key-remote-control/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60",
+              "verified": false,
+              "revision_id": "dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/midi-and-key-remote-control.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "33. MIDI and Key Remote Control"
+              ],
+              "anchor": "midi-and-key-remote-control",
+              "block_type": "ol",
+              "chunk_index": 0,
+              "previous_id": null,
+              "next_id": "6d4b46389594ac9820c744dd",
+              "snapshot_source": "originals/dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60.html"
+            },
+            "similarity": 0.6595757007598877,
+            "rank_score": 0.04620389822595705
+          },
+          {
+            "id": "e8ea2d786806ac68da9b1fce",
+            "text": "option can provide smooth value changes, but it can be difficult to estimate exactly where the pick-up will take place.\n\nValue Scaling — This option ensures smooth value transitions. It compares the physical control’s value to the destination parameter’s value and calculates a smooth convergence of the two as the control is moved. As soon as they are equal, the destination value tracks the control’s value 1:1.",
+            "metadata": {
+              "document_id": "ableton-live-12-midi-and-key-remote-control",
+              "canonical_id": "live-12-midi-and-key-remote-control",
+              "title": "Ableton Live 12 Manual — 33. MIDI and Key Remote Control",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/midi-and-key-remote-control/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60",
+              "verified": false,
+              "revision_id": "dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/midi-and-key-remote-control.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "33. MIDI and Key Remote Control",
+                "33.1 MIDI Remote Control",
+                "33.1.3 Takeover Mode"
+              ],
+              "anchor": "takeover-mode",
+              "block_type": "p",
+              "chunk_index": 9,
+              "previous_id": "f50458b3163949f4263e829d",
+              "next_id": "e847c2d0c470c81ac87532e4",
+              "snapshot_source": "originals/dcae39c5811f547bb74817f07075b75abab1bdc43ac133621415587438010d60.html"
+            },
+            "similarity": 0.632676362991333,
+            "rank_score": 0.04600640126586831
+          }
+        ],
+        "seconds": 43.399681582988705,
+        "snapshot": "20260916T134959Z-d2dab264"
+      },
+      "raw_outputs": [
+        {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "{\n  \"claims\": [\n    {\n      \"text\": \"Remote スイッチは、MIDI コントローラーから Live のパラメータへのマッピング作成や、Live のパラメータステータスを反映させるための LED やモーター付きフェーダーを持つコントローラーへのフィードバック送信に使用されます。\",\n      \"source\": 1,\n      \"quote\": \"The Remote switch allows you to create mappings from a MIDI controller to parameters in Live or to send feedback to a MIDI controller.\"\n    },\n    {\n      \"text\": \"Track スイッチは、MIDI キーボードで楽器を演奏したり、MIDI クリップにノートや CC メッセージを記録したり、外部ハードウェアデバイス（シンセサイザーなど）をトリガーしたり、他のアプリケーションや外部デバイスに MIDI ノートや CC オートメーションを送信したりする際に使用されます。\",\n      \"source\": 2,\n      \"quote\": \"Enabling Track allows Live to send or receive note and CC (Control Change) messages, for example, when using a MIDI keyboard to play or enter pitches.\"\n    },\n    {\n      \"text\": \"Remote コントロールに割り当てられた MIDI キーは、MIDI トックの入力として使用できなくなります。\",\n      \"source\": 3,\n      \"quote\": \"MIDI keys that become part of remote control assignments can no longer be used as input for MIDI tracks .\"\n    }\n  ],\n  \"missing\": \"\",\n  \"status\": \"supported\"\n}"
+              }
+            }
+          ],
+          "created": 1789567097,
+          "model": "/Users/koalapanda/Documents/midi/ableton-offline-ai/models/generation/Qwen3.5-4B-Q4_K_M.gguf",
+          "system_fingerprint": "b10964-b29c606e2",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 337,
+            "prompt_tokens": 1285,
+            "total_tokens": 1622,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "id": "chatcmpl-X2tLKeeyI87bJjLo2PgC5jQrSKaWNPFk",
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 1285,
+            "prompt_ms": 7284.915,
+            "prompt_per_token_ms": 5.6691945525291825,
+            "prompt_per_second": 176.39190024866454,
+            "predicted_n": 337,
+            "predicted_ms": 22358.92,
+            "predicted_per_token_ms": 66.54440476190476,
+            "predicted_per_second": 15.027559470672108
+          }
+        },
+        {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "{\"translations\": [\"リモートスイッチは、MIDI コントローラーから Live のパラメータへのマッピングを作成したり、MIDI コントローラーへのフィードバックを送信したりすることを可能にします。\", \"トラックを有効にすると、Live は MIDI キーボードを使用して音符や CC（コントロールチェンジ）メッセージを送信したり受信したりできます。\", \"リモート制御割り当ての一部となる MIDI キーは、MIDI トラックの入力として使用できなくなります。\"]}"
+              }
+            }
+          ],
+          "created": 1789567105,
+          "model": "/Users/koalapanda/Documents/midi/ableton-offline-ai/models/generation/Qwen3.5-4B-Q4_K_M.gguf",
+          "system_fingerprint": "b10964-b29c606e2",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 104,
+            "prompt_tokens": 162,
+            "total_tokens": 266,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "id": "chatcmpl-q59hGHLHzNMlOcGpTiVgHJgpg4AgtGtw",
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 162,
+            "prompt_ms": 1239.083,
+            "prompt_per_token_ms": 7.648660493827161,
+            "prompt_per_second": 130.74184699491477,
+            "predicted_n": 104,
+            "predicted_ms": 6751.42,
+            "predicted_per_token_ms": 65.54776699029127,
+            "predicted_per_second": 15.256049838404365
+          }
+        },
+        {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "{\n  \"supported\": true\n}"
+              }
+            }
+          ],
+          "created": 1789567107,
+          "model": "/Users/koalapanda/Documents/midi/ableton-offline-ai/models/generation/Qwen3.5-4B-Q4_K_M.gguf",
+          "system_fingerprint": "b10964-b29c606e2",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 10,
+            "prompt_tokens": 268,
+            "total_tokens": 278,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "id": "chatcmpl-97W1VBJZzrFfJ0MHrHDPBsIlnDMfSWd2",
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 268,
+            "prompt_ms": 1758.115,
+            "prompt_per_token_ms": 6.5601305970149255,
+            "prompt_per_second": 152.43598968213115,
+            "predicted_n": 10,
+            "predicted_ms": 660.992,
+            "predicted_per_token_ms": 73.44355555555555,
+            "predicted_per_second": 13.615898528272657
+          }
+        }
+      ]
+    },
+    {
+      "question": "EchoのDry/Wetとは何ですか？",
+      "result": {
+        "status": "partial",
+        "reason": " 対象はLive 12.3.5です。資料の一部はメジャー版のみの指定で、個別のマイナー版への適用は未確認です。",
+        "claims": [
+          {
+            "text": "ドライ/ウェットコントロールは、処理された信号とドライ信号のバランスを調整します。",
+            "source": 1,
+            "quote": "The Dry/Wet control adjusts the balance between the processed and dry signals."
+          },
+          {
+            "text": "エコーを返送トラックで使用する場合は、100 パーセントに設定してください。",
+            "source": 1,
+            "quote": "Set it to 100 percent when using Echo in a return track."
+          }
+        ],
+        "sources": [
+          {
+            "id": "dfb1c1110f06b0cb57daae55",
+            "text": "The Reverb knob sets the amount of reverb added, and you use the Reverb Location chooser to set where the reverb is added in the processing chain: pre delay, post delay, or within the feedback loop. Use the Decay slider to lengthen or shorten the reverb tail.\n\nThe Stereo control sets the stereo width of the wet signal. 0% yields a mono signal whereas values above 100% create a widened stereo panorama.\n\nThe Output sets the amount of gain applied to the processed signal. The Dry/Wet control adjusts the balance between the processed and dry signals. Set it to 100 percent when using Echo in a return track. The Dry/Wet parameter’s context menu lets you toggle Equal-Loudness. When enabled, a 50/50 mix will sound equally loud for most signals.",
+            "metadata": {
+              "document_id": "ableton-live-12-live-audio-effect-reference",
+              "canonical_id": "live-12-live-audio-effect-reference",
+              "title": "Ableton Live 12 Manual — 28. Live Audio Effect Reference",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "verified": false,
+              "revision_id": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/live-audio-effect-reference.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "28. Live Audio Effect Reference",
+                "28.14 Echo",
+                "28.14.4 Global Controls"
+              ],
+              "anchor": "global-controls-1",
+              "block_type": "p",
+              "chunk_index": 125,
+              "previous_id": "e604d6debb9bc71a6ce2536a",
+              "next_id": "a41be66e0919acedf23697a0",
+              "snapshot_source": "originals/8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99.html"
+            },
+            "similarity": 0.5914140343666077,
+            "rank_score": 0.048915917503966164
+          },
+          {
+            "id": "d17b19598b895796ba9a0269",
+            "text": "Echo’s Character tab contains parameters that control dynamics and add imperfections to your sound.\n\nEcho’s Character Tab.\n\nGate enables a gate at Echo’s input. It mutes the signal components below its threshold. Threshold sets the threshold level that incoming audio signals must exceed in order to open the gate. Release sets how long it takes for the gate to close after the signal has dropped below the threshold.\n\nWhen Ducking is enabled, the wet signal is proportionally reduced as long as there is an input signal. Ducking begins to affect the output signal when the input level exceeds the set Threshold. Release sets how long it takes for ducking to stop after the input signal drops below the threshold.\n\nWhen enabled, Noise introduces noise to simulate the character of vintage equipment. You can adjust the Amount of noise added to the signal, and Morph between different types of noise.",
+            "metadata": {
+              "document_id": "ableton-live-12-live-audio-effect-reference",
+              "canonical_id": "live-12-live-audio-effect-reference",
+              "title": "Ableton Live 12 Manual — 28. Live Audio Effect Reference",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "verified": false,
+              "revision_id": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/live-audio-effect-reference.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "28. Live Audio Effect Reference",
+                "28.14 Echo",
+                "28.14.3 Character Tab"
+              ],
+              "anchor": "character-tab",
+              "block_type": "p",
+              "chunk_index": 123,
+              "previous_id": "d5153f485b178fabafeec119",
+              "next_id": "e604d6debb9bc71a6ce2536a",
+              "snapshot_source": "originals/8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99.html"
+            },
+            "similarity": 0.5894168615341187,
+            "rank_score": 0.047619047619047616
+          },
+          {
+            "id": "f01b0a527299d78ecbb2ff09",
+            "text": "d, changing either channel’s delay line control, Sync switch or Sync Mode settings will apply the changes to both sides.\n\nChanging the Delay Offset sliders shortens or extends the delay time by fractional amounts, thus producing the ”swing” type of timing effect found in drum machines. Note that when Stereo Link is enabled, the Delay Offset can still be adjusted individually for the two delay lines.\n\nThe Input knob sets the amount of gain applied to the dry signal. To apply distortion to the dry signal, press the “D” button.\n\nThe Feedback parameter defines how much of each channel’s output signal feeds back into the delay lines’ inputs. The “Ø“ button inverts each channel’s output signal before adding it back to their inputs.",
+            "metadata": {
+              "document_id": "ableton-live-12-live-audio-effect-reference",
+              "canonical_id": "live-12-live-audio-effect-reference",
+              "title": "Ableton Live 12 Manual — 28. Live Audio Effect Reference",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "verified": false,
+              "revision_id": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/live-audio-effect-reference.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "28. Live Audio Effect Reference",
+                "28.14 Echo"
+              ],
+              "anchor": "echo",
+              "block_type": "p",
+              "chunk_index": 118,
+              "previous_id": "cda8eb05d8b19bd6712fd8b2",
+              "next_id": "1629ba4606984a2fe8db5a79",
+              "snapshot_source": "originals/8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99.html"
+            },
+            "similarity": 0.5599567890167236,
+            "rank_score": 0.04740957966764418
+          },
+          {
+            "id": "8b7c10d1741d6f2f5a03855d",
+            "text": "ency of the low-pass filter, and you can use the Res slider on the right side to adjust the low-pass filter’s resonance.\n\nThe Filter Display makes it possible to visualize the filter curves. To show or hide the Filter Display, use the triangular toggle button. You can also adjust the filter parameters by clicking and dragging either of the filter dots in the Filter Display.",
+            "metadata": {
+              "document_id": "ableton-live-12-live-audio-effect-reference",
+              "canonical_id": "live-12-live-audio-effect-reference",
+              "title": "Ableton Live 12 Manual — 28. Live Audio Effect Reference",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "verified": false,
+              "revision_id": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/live-audio-effect-reference.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "28. Live Audio Effect Reference",
+                "28.14 Echo",
+                "28.14.1 Echo Tab"
+              ],
+              "anchor": "echo-tab",
+              "block_type": "p",
+              "chunk_index": 120,
+              "previous_id": "1629ba4606984a2fe8db5a79",
+              "next_id": "3f797d1109dd4a659d1f4f3a",
+              "snapshot_source": "originals/8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99.html"
+            },
+            "similarity": 0.546688973903656,
+            "rank_score": 0.04617537313432836
+          },
+          {
+            "id": "d5153f485b178fabafeec119",
+            "text": "scales the delay time modulation depth by a factor of four. With short delay times, this produces deep flanging sounds.\n\nMod Filter adjusts the amount of modulation that is applied to the filter.\n\nEnv Mix blends between the modulation oscillator and an envelope follower. At 100%, only the envelope’s modulation will be heard. At 0%, only the LFO’s modulation will be heard.",
+            "metadata": {
+              "document_id": "ableton-live-12-live-audio-effect-reference",
+              "canonical_id": "live-12-live-audio-effect-reference",
+              "title": "Ableton Live 12 Manual — 28. Live Audio Effect Reference",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "verified": false,
+              "revision_id": "8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/live-audio-effect-reference.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "28. Live Audio Effect Reference",
+                "28.14 Echo",
+                "28.14.2 Modulation Tab"
+              ],
+              "anchor": "modulation-tab",
+              "block_type": "p",
+              "chunk_index": 122,
+              "previous_id": "3f797d1109dd4a659d1f4f3a",
+              "next_id": "d17b19598b895796ba9a0269",
+              "snapshot_source": "originals/8e394d02845f866e6fa43ec4eb6e8a3f6aa3d9b9f2e7804f8bff15c6c51ebe99.html"
+            },
+            "similarity": 0.5323027968406677,
+            "rank_score": 0.045008912655971484
+          }
+        ],
+        "seconds": 22.13011858399841,
+        "snapshot": "20260916T134959Z-d2dab264"
+      },
+      "raw_outputs": [
+        {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "{\n  \"claims\": [\n    {\n      \"text\": \"Dry/Wet のコントロールは、処理された信号と乾き信号（元の信号）のバランスを調整します。\",\n      \"source\": 1,\n      \"quote\": \"The Dry/Wet control adjusts the balance between the processed and dry signals.\"\n    },\n    {\n      \"text\": \"リターントラックで Echo を使用する場合は、100% に設定します。\",\n      \"source\": 1,\n      \"quote\": \"Set it to 100 percent when using Echo in a return track.\"\n    }\n  ],\n  \"missing\": \"\",\n  \"status\": \"supported\"\n}"
+              }
+            }
+          ],
+          "created": 1789567124,
+          "model": "/Users/koalapanda/Documents/midi/ableton-offline-ai/models/generation/Qwen3.5-4B-Q4_K_M.gguf",
+          "system_fingerprint": "b10964-b29c606e2",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 153,
+            "prompt_tokens": 1160,
+            "total_tokens": 1313,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "id": "chatcmpl-MT2uyhXXlWkyQb7OkQK67I2Q4p2QDzzr",
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 1160,
+            "prompt_ms": 6563.396,
+            "prompt_per_token_ms": 5.6581,
+            "prompt_per_second": 176.73777416447217,
+            "predicted_n": 153,
+            "predicted_ms": 9998.771,
+            "predicted_per_token_ms": 65.78138815789474,
+            "predicted_per_second": 15.201868309615252
+          }
+        },
+        {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "{\"translations\": [\"ドライ/ウェットコントロールは、処理された信号とドライ信号のバランスを調整します。\", \"エコーを返送トラックで使用する場合は、100 パーセントに設定してください。\"]}"
+              }
+            }
+          ],
+          "created": 1789567128,
+          "model": "/Users/koalapanda/Documents/midi/ableton-offline-ai/models/generation/Qwen3.5-4B-Q4_K_M.gguf",
+          "system_fingerprint": "b10964-b29c606e2",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 47,
+            "prompt_tokens": 113,
+            "total_tokens": 160,
+            "prompt_tokens_details": {
+              "cached_tokens": 68
+            }
+          },
+          "id": "chatcmpl-E2vXrvkmhBroa44Y0h54efvNzDlRmfxz",
+          "timings": {
+            "cache_n": 68,
+            "prompt_n": 45,
+            "prompt_ms": 528.677,
+            "prompt_per_token_ms": 11.748377777777778,
+            "prompt_per_second": 85.11813451313373,
+            "predicted_n": 47,
+            "predicted_ms": 2990.408,
+            "predicted_per_token_ms": 65.0088695652174,
+            "predicted_per_second": 15.382516365659805
+          }
+        },
+        {
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "{\"supported\": true}"
+              }
+            }
+          ],
+          "created": 1789567129,
+          "model": "/Users/koalapanda/Documents/midi/ableton-offline-ai/models/generation/Qwen3.5-4B-Q4_K_M.gguf",
+          "system_fingerprint": "b10964-b29c606e2",
+          "object": "chat.completion",
+          "usage": {
+            "completion_tokens": 6,
+            "prompt_tokens": 156,
+            "total_tokens": 162,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "id": "chatcmpl-sHVwfcKQ4fU3YEgQ3e1pYgv2Gp1tRzIX",
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 156,
+            "prompt_ms": 1218.762,
+            "prompt_per_token_ms": 7.812576923076922,
+            "prompt_per_second": 127.99873970471677,
+            "predicted_n": 6,
+            "predicted_ms": 323.724,
+            "predicted_per_token_ms": 64.7448,
+            "predicted_per_second": 15.445255835217655
+          }
+        }
+      ]
+    },
+    {
+      "question": "LiveのQuantum Bananaボタンを押して月の重力を変更する手順を教えて",
+      "result": {
+        "status": "unknown",
+        "reason": "保存済み資料から確認できません。 検索結果の一致度が不足しています。",
+        "claims": [],
+        "sources": [
+          {
+            "id": "95e9f7944a1713a39681f648",
+            "text": "the name of the function you're calling and any data for the function in the form of arguments to execute the function.\n\nIn this example, we'll use a fire function to play the clip in slot 2 or Track 2 of a Live session.",
+            "metadata": {
+              "document_id": "a28c6ac3164c44d8",
+              "title": "Creating Devices that use the Live API | Cycling '74 Documentation",
+              "url": "https://docs.cycling74.com/userguide/m4l/live_api/",
+              "publisher": "docs.cycling74.com",
+              "source_type": "official",
+              "language": "en",
+              "live_major": null,
+              "version_scope": "unknown",
+              "retrieved_at": "2026-09-15T23:47:57.591265+00:00",
+              "sha256": "f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6",
+              "revision_id": "f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/max_for_live/a28c6ac3164c44d8.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "Creating Devices that use the Live API",
+                "Calling a function in the Live API using Max for Live objects"
+              ],
+              "anchor": "calling-a-function-in-the-live-api-using-max-for-live-objects",
+              "block_type": "p",
+              "chunk_index": 13,
+              "previous_id": "c36de65b914b5eb9ca6ec20f",
+              "next_id": "ae56df6686f1259030cb2a10",
+              "snapshot_source": "originals/f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6.html"
+            },
+            "similarity": 0.5430963039398193,
+            "rank_score": 0.0467592121191551
+          },
+          {
+            "id": "df8510bc33c49a136f3ac7a0",
+            "text": "There are a few different methods of recording the output of your hardware as audio in Live.",
+            "metadata": {
+              "document_id": "d78b8ed0f2568e91",
+              "title": "Using hardware synthesizers with Live – Ableton",
+              "url": "https://help.ableton.com/hc/en-us/articles/209774265-Using-hardware-synthesizers-with-Live",
+              "publisher": "help.ableton.com",
+              "source_type": "official",
+              "language": "en",
+              "live_major": null,
+              "version_scope": "unknown",
+              "retrieved_at": "2026-09-15T23:47:53.227075+00:00",
+              "sha256": "bd9453420945122a078fb91d3d031088bda40b25953d88dd121ea0dd464c3db7",
+              "revision_id": "bd9453420945122a078fb91d3d031088bda40b25953d88dd121ea0dd464c3db7",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/knowledge-base/d78b8ed0f2568e91.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "Using hardware synthesizers with Live",
+                "Step 7 - Recording the hardware into Live"
+              ],
+              "anchor": "h_01HS1DBMX2BVVNT3D2TFVJ60F9",
+              "block_type": "p",
+              "chunk_index": 7,
+              "previous_id": "4d7dad9bf19fa565c79331df",
+              "next_id": "688904c54eafbc444dd9f627",
+              "snapshot_source": "originals/bd9453420945122a078fb91d3d031088bda40b25953d88dd121ea0dd464c3db7.html"
+            },
+            "similarity": 0.4164313077926636,
+            "rank_score": 0.032266458495966696
+          },
+          {
+            "id": "c08806235d9f736730f602d5",
+            "text": "The type of document that you create and work on in Live is called a Live Set . A Live Set resides in a Live Project — a folder that collects related materials. Once the Project folder is saved, the Set can be opened again using the File menu’s Open command.\n\nA Live Set in the Browser.\n\nThe Live Project folder and related files belonging to the currently open Live Set are also accessible via the Current Project label in Live’s Places.",
+            "metadata": {
+              "document_id": "ableton-live-12-live-concepts",
+              "canonical_id": "live-12-live-concepts",
+              "title": "Ableton Live 12 Manual — 3. Live Concepts",
+              "publisher": "Ableton",
+              "language": "en",
+              "url": "https://www.ableton.com/en/live-manual/12/live-concepts/",
+              "live_major": 12,
+              "version_scope": "major_only",
+              "source_type": "official_manual",
+              "retrieved_at": "2026-09-15T23:28:28.789103+00:00",
+              "sha256": "1898d225ed3e1bc0d73bd95fc2982bd8497c29db2d6ff282b0e68fb196d079c9",
+              "verified": false,
+              "revision_id": "1898d225ed3e1bc0d73bd95fc2982bd8497c29db2d6ff282b0e68fb196d079c9",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/ableton/live-12/live-concepts.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "3. Live Concepts",
+                "3.5 Live Sets"
+              ],
+              "anchor": "live-sets",
+              "block_type": "p",
+              "chunk_index": 7,
+              "previous_id": "e2b328595f61e8adc38fc92f",
+              "next_id": "49c3183651d0617064f371ea",
+              "snapshot_source": "originals/1898d225ed3e1bc0d73bd95fc2982bd8497c29db2d6ff282b0e68fb196d079c9.html"
+            },
+            "similarity": 0.35920339822769165,
+            "rank_score": 0.03225806451612903
+          },
+          {
+            "id": "8a2c91096eef32d3d4cb72e5",
+            "text": "You can use the Max for Live live.path and live.object objects to find out the current state of any property defined in the Live Object Model reference.\n\nThe live.path object is used to navigate to the Live object properties you wish to query. Each property of the Live object model in a session is associated with an id specific to that particular Song, Track, Clip, Clip Slot, Device, etc. Sending a message to a live.path object results in an object id being sent out the left outout (where the id follows the object) or middle outlet (where the id follows the path).\nIn turn, the live.object object takes the id message from the live.path object and lets you use get messages to get information about the properties of the object. The result of the query is sent out the outlet of the live.object object, preceded by the name of the query.",
+            "metadata": {
+              "document_id": "a28c6ac3164c44d8",
+              "title": "Creating Devices that use the Live API | Cycling '74 Documentation",
+              "url": "https://docs.cycling74.com/userguide/m4l/live_api/",
+              "publisher": "docs.cycling74.com",
+              "source_type": "official",
+              "language": "en",
+              "live_major": null,
+              "version_scope": "unknown",
+              "retrieved_at": "2026-09-15T23:47:57.591265+00:00",
+              "sha256": "f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6",
+              "revision_id": "f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/max_for_live/a28c6ac3164c44d8.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "Creating Devices that use the Live API",
+                "Querying the Live API (getting data) using Max for Live objects"
+              ],
+              "anchor": "querying-the-live-api-getting-data-using-max-for-live-objects",
+              "block_type": "p",
+              "chunk_index": 3,
+              "previous_id": "7f21675bf54b7ca4fe40ed9d",
+              "next_id": "091ec3615dbbb3a0b053415e",
+              "snapshot_source": "originals/f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6.html"
+            },
+            "similarity": 0.49671870470046997,
+            "rank_score": 0.031009615384615385
+          },
+          {
+            "id": "cc0bd480a7311b87e461bdf7",
+            "text": "You can also use the Max for Live live.path and live.object objects to set the current state of many properties defined in the Live Object Model reference.\nThe live.path object is used to navigate to the Live objects you wish to query. Each property of the Live object model in a session is associated with an id specific to that particular Song, Track, Clip, Clip Slot, Device, etc. Sending a message to a live.path object results in an object id being sent out the left outout (where the id follows the object) or middle outlet (where the id follows the path).\nIn turn, the live.object object takes the id message from the live.path object and lets you use set messages, followed by arguments that specify the new setting to set the state of a property. In this example, we'll use a set message to mute Track 3 of a Live session.",
+            "metadata": {
+              "document_id": "a28c6ac3164c44d8",
+              "title": "Creating Devices that use the Live API | Cycling '74 Documentation",
+              "url": "https://docs.cycling74.com/userguide/m4l/live_api/",
+              "publisher": "docs.cycling74.com",
+              "source_type": "official",
+              "language": "en",
+              "live_major": null,
+              "version_scope": "unknown",
+              "retrieved_at": "2026-09-15T23:47:57.591265+00:00",
+              "sha256": "f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6",
+              "revision_id": "f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6",
+              "source_path": "/Users/koalapanda/Documents/midi/ableton-offline-ai/knowledge/max_for_live/a28c6ac3164c44d8.html",
+              "format": "html",
+              "parser_version": "1",
+              "heading_path": [
+                "Creating Devices that use the Live API",
+                "Setting a property in the Live API using Max for Live objects"
+              ],
+              "anchor": "setting-a-property-in-the-live-api-using-max-for-live-objects",
+              "block_type": "p",
+              "chunk_index": 6,
+              "previous_id": "75c9f7fecdb6bc7e98a00fde",
+              "next_id": "f8734b88830ce372ba7c1873",
+              "snapshot_source": "originals/f394168bd4ff89c99ef1811b64ce4c5f33a201fa1f1210302b5275f15d7aa8f6.html"
+            },
+            "similarity": 0.45052003860473633,
+            "rank_score": 0.031009615384615385
+          }
+        ],
+        "seconds": 0.24244866697699763,
+        "snapshot": "20260916T134959Z-d2dab264"
+      },
+      "raw_outputs": []
+    }
+  ]
+}
