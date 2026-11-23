@@ -71,6 +71,8 @@ with chat_tab:
             st.warning("別の処理が実行中です。終了後にお試しください。")
         else:
             try:
+                # Never carry the previous answer's history file into a new question.
+                st.session_state.pop("history_path", None)
                 version_tuple(version)
                 with st.spinner("保存済み資料を検索しています…"):
                     retriever = Retriever()

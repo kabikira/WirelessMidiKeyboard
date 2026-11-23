@@ -195,6 +195,18 @@ def test_general_sampling_scope_does_not_override_specific_requests():
     assert not introductory("SimplerのWarpの使い方", ["Simpler"])
 
 
+def test_history_records_are_backward_compatible():
+    """Old records without improvement fields must be treated as unreviewed by the UI."""
+    import tempfile
+    from pathlib import Path
+    old = {"question": "q", "version": "12.3.5", "result": {"status": "unknown"}}
+    with tempfile.TemporaryDirectory() as directory:
+        path = Path(directory) / "old.json"
+        path.write_text(json.dumps(old), encoding="utf-8")
+        record = json.loads(path.read_text(encoding="utf-8"))
+        assert record.get("improvement_status", "未確認") == "未確認"
+
+
 def test_introduction_keeps_loading_steps_under_shared_heading(tmp_path):
     knowledge, data = tmp_path / "knowledge", tmp_path / "data"
     text = "# Instruments\n\n## Simpler\n\nSimpler is a sampler instrument.\n\n" + "General description. " * 60 + "\n\nSamples can be dragged into Simpler from the browser.\n\n### Context Menu\n\nSimpler uses constant-power fades by default."
