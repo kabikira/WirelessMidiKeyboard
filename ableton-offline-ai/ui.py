@@ -65,60 +65,79 @@ def render_sources(hits, snapshot):
 
 
 with chat_tab:
-    question = st.text_area("質問", placeholder="例：MIDIのTrackとRemoteは何が違いますか？", max_chars=2000)
+    st.session_state.setdefault("chat_messages", [])
+    if st.button("会話をクリア"):
+        st.session_state["chat_messages"] = []
+        st.session_state.pop("history_path", None)
+        st.rerun()
+    for turn_index, message in enumerate(st.session_state["chat_messages"]):
+        with st.chat_message(message["role"]):
+            if message["role"] == "user":
+                st.write(message["text"])
+            else:
+                result = message["result"]
+                labels = {"supported": "根拠あり（自動検査）", "partial": "一部確認", "unknown": "確認できず", "search": "検索結果"}
+                st.subheader(labels[result["status"]])
+                for claim in result["claims"]:
+                    st.text(f"{claim['text']} [{claim['source']}]")
+                    st.caption("根拠原文")
+                    st.text(claim["quote"])
+                if result["reason"]:
+                    st.text(result["reason"])
+                history_path = message.get("history_path")
+                if history_path and Path(history_path).is_file():
+                    history_record = json.loads(Path(history_path).read_text(encoding="utf-8"))
+                    status = history_record.get("improvement_status", "未確認")
+                    st.caption(f"改善利用状況: {status}")
+                    if status != "改善に反映済み" and st.button("この回答を改善に反映済みとして記録", key=f"mark-improvement-{turn_index}"):
+                        history_record["improvement_status"] = "改善に反映済み"
+                        history_record["improvement_used_at"] = datetime.now(timezone.utc).isoformat()
+                        write_json(history_path, history_record)
+                        st.success("改善への反映済みとして記録しました。")
+                if result.get("seconds"):
+                    st.caption(f"処理時間 {result['seconds']:.1f}秒 / snapshot {result['snapshot']}")
+                render_sources(result["sources"], result["snapshot"])
+
+    question = st.text_area("次の質問", placeholder="例：Simplerでサンプルを読み込むには？", max_chars=2000)
     if st.button("資料を調べる", type="primary", disabled=not question.strip()):
         if not work_lock.acquire(blocking=False):
             st.warning("別の処理が実行中です。終了後にお試しください。")
         else:
             try:
-                # Never carry the previous answer's history file into a new question.
-                st.session_state.pop("history_path", None)
                 version_tuple(version)
                 with st.spinner("保存済み資料を検索しています…"):
                     retriever = Retriever()
+                    conversation = [{"role": item["role"], "text": item["text"]}
+                                    for item in st.session_state["chat_messages"][-6:]]
                     if search_only:
                         hits = retriever.search(question, version, edition)
                         result = {"status": "search", "reason": "全文検索の結果です。回答の根拠としての適合性は未判定です。",
                                   "claims": [], "sources": [asdict(h) for h in hits], "snapshot": retriever.snapshot.name}
                     else:
-                        result = asdict(answer_question(question, retriever, runtime, version, edition))
-                    st.session_state["result"] = result
-                    st.session_state["result_context"] = (question, version, edition, search_only)
+                        result = asdict(answer_question(question, retriever, runtime, version, edition, conversation))
+                    history_path = None
                     if save_history:
                         history_path = data_root() / "history" / (uuid.uuid4().hex + ".json")
-                        write_json(history_path, {"question": question, "version": version, "result": result,
-                                                  "improvement_status": "未確認", "improvement_used_at": None,
-                                                  "improvement_note": ""})
-                        st.session_state["history_path"] = str(history_path)
+                        try:
+                            turn_id = uuid.uuid4().hex
+                            parent_turn_id = st.session_state["chat_messages"][-1].get("turn_id") if st.session_state["chat_messages"] else None
+                            write_json(history_path, {"turn_id": turn_id, "parent_turn_id": parent_turn_id,
+                                                      "question": question, "version": version, "result": result,
+                                                      "improvement_status": "未確認", "improvement_used_at": None,
+                                                      "improvement_note": ""})
+                        except OSError as exc:
+                            history_path = None
+                            st.warning(f"回答は表示しますが、履歴を保存できませんでした: {exc}")
+                    st.session_state["chat_messages"].append({"role": "user", "text": question})
+                    assistant_text = "\n".join(c["text"] for c in result["claims"]) or result.get("reason", "")
+                    st.session_state["chat_messages"].append({"role": "assistant", "text": assistant_text, "result": result,
+                                                               "history_path": str(history_path) if history_path else None,
+                                                               "turn_id": turn_id if save_history and history_path else None})
+                    st.rerun()
             except Exception as exc:
-                st.session_state.pop("result", None)
                 st.error(str(exc))
             finally:
                 work_lock.release()
-    if "result" in st.session_state and st.session_state.get("result_context") == (question, version, edition, search_only):
-        result = st.session_state["result"]
-        labels = {"supported": "根拠あり（自動検査）", "partial": "一部確認", "unknown": "確認できず", "search": "検索結果"}
-        st.subheader(labels[result["status"]])
-        for claim in result["claims"]:
-            st.text(f"{claim['text']} [{claim['source']}]")
-            st.caption("根拠原文")
-            st.text(claim["quote"])
-        if result["reason"]:
-            st.text(result["reason"])
-        history_path = st.session_state.get("history_path")
-        if history_path and Path(history_path).is_file():
-            history_record = json.loads(Path(history_path).read_text(encoding="utf-8"))
-            status = history_record.get("improvement_status", "未確認")
-            st.caption(f"改善利用状況: {status}")
-            if status != "改善に反映済み" and st.button("この回答を改善に反映済みとして記録", key="mark-improvement"):
-                history_record["improvement_status"] = "改善に反映済み"
-                history_record["improvement_used_at"] = datetime.now(timezone.utc).isoformat()
-                write_json(history_path, history_record)
-                st.success("改善への反映済みとして記録しました。")
-        if result.get("seconds"):
-            st.caption(f"処理時間 {result['seconds']:.1f}秒 / snapshot {result['snapshot']}")
-        render_sources(result["sources"], result["snapshot"])
-
 with library_tab:
     st.subheader("取り込み済み資料")
     try:

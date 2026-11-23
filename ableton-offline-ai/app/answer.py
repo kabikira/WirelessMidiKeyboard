@@ -106,7 +106,7 @@ def select_claims(payload, catalog):
     return [dict(catalog[eid], text="翻訳中") for eid in dict.fromkeys(ids)]
 
 
-def answer_question(query, retriever, runtime, version="12.3.5", edition="Suite"):
+def answer_question(query, retriever, runtime, version="12.3.5", edition="Suite", conversation=None):
     start = time.monotonic()
     policy = settings()["retrieval"]
     requested = re.findall(r"(?<![A-Za-z])Live\s*(\d+(?:\.\d+){0,2})", query, re.I)
@@ -164,7 +164,13 @@ def answer_question(query, retriever, runtime, version="12.3.5", edition="Suite"
     target = version if explicit_minor else version.split(".")[0]
     scoped_sampling = sampling_overview(query)
     question = "Simplerで既存の音声サンプルを読み込んで使う基本操作を教えて" if scoped_sampling else query
-    user = f"対象: Live {target} {edition}\n質問: {question}\n\n資料:\n" + "\n\n".join(blocks)
+    prior = ""
+    if conversation:
+        recent = conversation[-6:]
+        prior = "\n\n直前の会話（補助情報。今回の根拠は資料だけ）：\n" + "\n".join(
+            f"{item['role']}: {item['text']}" for item in recent if item.get("text")
+        )
+    user = f"対象: Live {target} {edition}\n質問: {question}{prior}\n\n資料:\n" + "\n\n".join(blocks)
     schema = {"type": "object", "properties": {
         "evidence_ids": {"type": "array", "maxItems": 5, "items": {"type": "string", "enum": list(catalog)}},
         "missing": {"type": "string"}, "status": {"type": "string", "enum": ["supported", "partial", "unknown"]}},
